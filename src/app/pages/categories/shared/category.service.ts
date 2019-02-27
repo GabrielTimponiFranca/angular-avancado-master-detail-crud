@@ -56,7 +56,7 @@ export class CategoryService {
     );
   }
 
-  // PRIVET METHODS
+  // PRIVATE METHODS
 
   private jsonDataToCategories(jsonData: any[]): Category[] {
     const categories: Category[] = [];
